@@ -33,15 +33,19 @@
     "public": false
   },
   "Widget": {
-    "dataSource": "mongoDs",
+    "dataSource": "mysqlDs",
     "public": true
   },
   "WidgetArea": {
-    "dataSource": "mongoDs",
+    "dataSource": "mysqlDs",
     "public": true
   },
   "Module": {
-    "dataSource": "mongoDs",
+    "dataSource": "mysqlDs",
+    "public": true
+  },
+  "Persona": {
+    "dataSource": "mysqlDs",
     "public": true
   }
 }

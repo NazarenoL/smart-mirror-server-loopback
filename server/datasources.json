@@ -12,5 +12,15 @@
     "name": "mongoDs",
     "user": "",
     "connector": "mongodb"
+  },
+  "mysqlDs": {
+    "host": "127.0.0.1",
+    "port": 0,
+    "url": "",
+    "database": "smart_mirror",
+    "password": "root",
+    "name": "mysqlDs",
+    "user": "root",
+    "connector": "mysql"
   }
 }

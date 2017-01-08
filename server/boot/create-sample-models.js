@@ -1,5 +1,5 @@
 module.exports = function(app) {
-  app.dataSources.mongoDs.automigrate('WidgetArea', function(err) {
+  app.dataSources.mysqlDs.automigrate('WidgetArea', function(err) {
     if (err) throw err;
 
     app.models.WidgetArea.create(

@@ -1,26 +1,30 @@
 {
-  "name": "Widget",
-  "plural": "Widgets",
+  "name": "Module",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "module": {
+    "name": {
       "type": "string",
       "required": true
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "default": "n"
+    },
+    "description": {
+      "type": "string",
+      "required": true
     },
     "parameters": {
       "type": "object"
     }
   },
   "validations": [],
-  "relations": {
-  },
+  "relations": {},
   "acls": [],
   "methods": {}
 }
