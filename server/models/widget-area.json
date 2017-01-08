@@ -1,0 +1,27 @@
+{
+  "name": "WidgetArea",
+  "plural": "WidgetAreas",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "requred": false
+    },
+    "description": {
+      "type": "string",
+      "requred": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
