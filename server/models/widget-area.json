@@ -13,11 +13,11 @@
     },
     "title": {
       "type": "string",
-      "requred": false
+      "required": false
     },
     "description": {
       "type": "string",
-      "requred": false
+      "required": false
     }
   },
   "validations": [],
