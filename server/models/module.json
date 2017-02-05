@@ -24,7 +24,6 @@
     }
   },
   "validations": [],
-  "relations": {},
   "acls": [
     {
       "accessType": "*",
@@ -39,5 +38,12 @@
       "permission": "ALLOW"
     }
   ],
+  "relations": {
+    "widgets": {
+      "type": "hasMany",
+      "model": "Widget",
+      "foreignKey": ""
+    }
+  },
   "methods": {}
 }

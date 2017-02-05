@@ -47,5 +47,9 @@
   "Persona": {
     "dataSource": "mysqlDs",
     "public": true
+  },
+  "MyUser": {
+    "dataSource": "mysqlDs",
+    "public": true
   }
 }

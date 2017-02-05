@@ -1,0 +1,19 @@
+{
+  "name": "MyUser",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "personas": {
+      "type": "hasMany",
+      "model": "Persona",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

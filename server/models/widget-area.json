@@ -13,7 +13,7 @@
     },
     "title": {
       "type": "string",
-      "requred": false
+      "required": false
     },
     "description": {
       "type": "string",
@@ -21,7 +21,6 @@
     }
   },
   "validations": [],
-  "relations": {},
   "acls": [
     {
       "accessType": "*",
@@ -36,5 +35,12 @@
       "permission": "ALLOW"
     }
   ],
+  "relations": {
+    "widgets": {
+      "type": "hasMany",
+      "model": "Widget",
+      "foreignKey": ""
+    }
+  },
   "methods": {}
 }
