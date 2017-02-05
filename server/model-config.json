@@ -14,10 +14,10 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "mysqlDs"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "mysqlDs",
     "public": false
   },
   "ACL": {

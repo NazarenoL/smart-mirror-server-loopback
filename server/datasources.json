@@ -15,12 +15,11 @@
   },
   "mysqlDs": {
     "host": "127.0.0.1",
-    "port": 0,
-    "url": "",
+    "port": 3306,
     "database": "smart_mirror",
-    "password": "root",
     "name": "mysqlDs",
     "user": "root",
+    "password": "root",
     "connector": "mysql"
   }
 }
