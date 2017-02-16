@@ -7,7 +7,7 @@ module.exports = function(app) {
 
   app.models.Persona.create(
     [
-      {"name": "Sofi", "description": "Persona de Sofi"},
+      {"name": "Sofi", "description": "Persona de Sofi", "myUserId": 1},
       {"name": "Nero", "description": "Persona Mia"}
     ],
     function(err, newPersona) {
